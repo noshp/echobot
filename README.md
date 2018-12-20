@@ -13,7 +13,9 @@ Type `@echobot <NAME>` and echobot will repeat several random phrases that perso
 
 2. Create a bot user on your Slack group -- see [link here](https://api.slack.com/bot-users).
 
-3. Just run `go build` and `go run slackbot.go`. Enjoy!
+3. Get the `nlopes/slack` package `go get github.com/nlopes/slack`
+
+4. Just run `go run echobot.go`. Enjoy!
 
 ## Other
 
