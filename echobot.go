@@ -83,7 +83,7 @@ type Profile struct {
 	LastName      string `json:"last_name"`
 }
 
-// History Response struct
+// HistoryResponse struct for all the channel history messages
 type HistoryResponse struct {
 	Ok        bool      `json:"ok"`
 	Messages  []Message `json:"messages"`
